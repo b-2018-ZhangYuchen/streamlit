@@ -1,20 +1,11 @@
 streamlit
-
-# 核心数值 & 科学计算
 numpy
 pandas
 scikit-learn
-
-# XGBoost
 xgboost
-
-# BERT 向量相关
-
-
-# 其他用到的库
 joblib
 matplotlib
 scipy
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
+torch
+torchvision
+torchaudio
