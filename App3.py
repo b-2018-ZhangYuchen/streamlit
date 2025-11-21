@@ -432,7 +432,7 @@ def get_summary_from_resume(resume_text):
     """Extract and summarize resume using Gemini AI"""
     try:
         # === 1. 设置你的 Google API Key ===
-        genai.configure(api_key="AIzaSyDTZbFA22Y-QWAftfKlMpmU-E23If2rHPk")
+        genai.configure(api_key="AIzaSyC6tFs9WvTEiHdYO7y481pZeww6WS-fJcw")
 
         # ===  构造Prompt ===
         # Limit resume text to first 1200 characters to avoid token limits
@@ -481,7 +481,7 @@ def get_improvement_feedback(resume_summary, job_description, job_role, match_pr
     """Generate improvement suggestions using Gemini AI when candidate doesn't match"""
     try:
         # === 1. 设置你的 Google API Key ===
-        genai.configure(api_key="AIzaSyDTZbFA22Y-QWAftfKlMpmU-E23If2rHPk")
+        genai.configure(api_key="AIzaSyC6tFs9WvTEiHdYO7y481pZeww6WS-fJcw")
 
         # ===  构造Prompt ===
         prompt = f"""
