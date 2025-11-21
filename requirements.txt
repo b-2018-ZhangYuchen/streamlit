@@ -8,5 +8,6 @@ matplotlib
 scipy
 seaborn
 PyPDF2
+google.generativeai
 torch==2.5.0
 sentence-transformers==3.0.1
